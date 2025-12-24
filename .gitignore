@@ -1,0 +1,26 @@
+# --- Binaries and Executables ---
+build/
+run/
+*.out
+*.exe
+
+# --- Objects and Intermediary Files ---
+*.o
+*.obj
+
+include/stat_offsets.inc
+include/stat.inc
+
+*.log
+gmon.out
+.gdb_history
+core.*
+
+tests/test_data.txt
+tests/test_folder/
+
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
